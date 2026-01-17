@@ -7,13 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mv95qjxtg3ce1z27i2bkcgekumyoppwg" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/textInfo"
+        android:layout_width="404dp"
+        android:layout_height="67dp"
+        android:fontFamily="monospace"
+        android:gravity="center|center_horizontal"
+        android:text="Нажмите кнопку, чтобы бросить кубик"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"
+        tools:text="Нажмите кнопку, чтобы бросить кубик" />
+
+    <Button
+        android:id="@+id/buttonPull"
+        android:layout_width="187dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="252dp"
+        android:text="Бросить"
+        android:textColorLink="#FFFF0FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:text="Бросить" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
