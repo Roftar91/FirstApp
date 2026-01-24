@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
     namespace = "com.abramovich_mambetov.firstappam"
     compileSdk = 36
 
